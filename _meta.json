@@ -1,0 +1,37 @@
+{
+  "name": "logoup-to-printable",
+  "display_name": "LogoUp(.logoup) 转可打印文件",
+  "display_name_en": "LogoUp (.logoup) to printable STL/3MF",
+  "description_zh": "把 .logoup 建模代码解释成水密 STL/3MF（分件、带颜色、自动排板），无需安装付费的官方 LogoUp 3D 软件。",
+  "description_en": "Interpret LogoUp 3D .logoup modeling code into watertight, object-split STL/3MF for slicing, without the paid official software.",
+  "category": "3d-printing",
+  "version": "1.0.0",
+  "author": "小布",
+  "emoji": "🧊",
+  "color": "#00838F",
+  "tags": [
+    "logoup",
+    "LogoUp 3D",
+    "3D打印",
+    "STL",
+    "3MF",
+    "拓竹",
+    "Bambu",
+    "切片",
+    "3d printing",
+    "model conversion"
+  ],
+  "language": [
+    "zh-CN"
+  ],
+  "requires": {
+    "python": ">=3.9",
+    "packages": [
+      "numpy",
+      "shapely",
+      "trimesh",
+      "manifold3d",
+      "pillow"
+    ]
+  }
+}
